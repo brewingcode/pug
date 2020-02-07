@@ -86,6 +86,7 @@ function compileBody(str, options){
   var ast = load.string(str, {
     filename: options.filename,
     basedir: options.basedir,
+    skipEncoding: options.skipEncoding,
     lex: function (str, options) {
       var lexOptions = {};
       Object.keys(options).forEach(function (key) {
@@ -243,6 +244,7 @@ exports.compile = function(str, options){
     compileDebug: options.compileDebug !== false,
     filename: options.filename,
     basedir: options.basedir,
+    skipEncoding: options.skipEncoding,
     pretty: options.pretty,
     doctype: options.doctype,
     inlineRuntimeFunctions: options.inlineRuntimeFunctions,
