@@ -35,7 +35,7 @@ describe('Proper Usage', () => {
     const html = pug.renderFile(
       __dirname + '/passing/brackets.pug',
       {
-        users: new Map([['a', 'b'], ['foo', 'bar']])
+        users: { a:'b', foo:'bar' }
       }
     )
     expect(html).toMatchSnapshot();
@@ -44,7 +44,7 @@ describe('Proper Usage', () => {
     const html = pug.renderFile(
       __dirname + '/passing/no-brackets.pug',
       {
-        users: new Map([['a', 'b'], ['foo', 'bar']])
+        users: [ ['a', 'b'], ['foo', 'bar'] ]
       }
     )
     expect(html).toMatchSnapshot();
