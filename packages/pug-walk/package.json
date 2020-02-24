@@ -6,8 +6,8 @@
     "pug"
   ],
   "devDependencies": {
-    "pug-lexer": "^4.1.0",
-    "pug-parser": "^5.0.1"
+    "pug-lexer": "file:../pug-lexer",
+    "pug-parser": "file:../pug-parser"
   },
   "files": [
     "index.js"

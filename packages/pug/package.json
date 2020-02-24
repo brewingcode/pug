@@ -26,14 +26,14 @@
   },
   "main": "lib",
   "dependencies": {
-    "pug-code-gen": "^2.0.2",
-    "pug-filters": "^3.1.1",
-    "pug-lexer": "^4.1.0",
-    "pug-linker": "^3.0.6",
-    "pug-load": "^2.0.12",
-    "pug-parser": "^5.0.1",
-    "pug-runtime": "^2.0.5",
-    "pug-strip-comments": "^1.0.4"
+    "pug-code-gen": "file:../pug-code-gen",
+    "pug-filters": "file:../pug-filters",
+    "pug-lexer": "file:../pug-lexer",
+    "pug-linker": "file:../pug-linker",
+    "pug-load": "file:../pug-load",
+    "pug-parser": "file:../pug-parser",
+    "pug-runtime": "file:../pug-runtime",
+    "pug-strip-comments": "file:../pug-strip-comments"
   },
   "devDependencies": {
     "jstransformer-cdata": "^1.0.0",
