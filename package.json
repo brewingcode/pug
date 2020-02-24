@@ -1,5 +1,6 @@
 {
   "name": "pug-monorepo",
+  "version": "0.0.0",
   "private": true,
   "devDependencies": {
     "coveralls": "3.0.2",
