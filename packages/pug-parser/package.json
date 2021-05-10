@@ -6,7 +6,7 @@
     "pug"
   ],
   "dependencies": {
-    "pug-error": "^1.3.3",
+    "pug-error": "file:../pug-error",
     "token-stream": "1.0.0"
   },
   "devDependencies": {},

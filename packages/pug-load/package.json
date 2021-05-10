@@ -7,11 +7,11 @@
   ],
   "dependencies": {
     "object-assign": "^4.1.1",
-    "pug-walk": "^1.1.8"
+    "pug-walk": "file:../pug-walk"
   },
   "devDependencies": {
-    "pug-lexer": "^4.1.0",
-    "pug-parser": "^5.0.1"
+    "pug-lexer": "file:../pug-lexer",
+    "pug-parser": "file:../pug-parser"
   },
   "files": [
     "index.js"
